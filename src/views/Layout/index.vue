@@ -18,6 +18,8 @@ onMounted(() => categoryState.getCategory())
     <LayoutFixed />
     <LayoutNav />
     <LayoutHeader />
+    <!-- 添加key -->
+    <!-- <RouterView :key="$route.fullPath" /> -->
     <RouterView />
     <LayoutFooter />
 </template>>
